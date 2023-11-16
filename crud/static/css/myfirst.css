@@ -1,0 +1,50 @@
+.b {
+    background-color: rgb(241, 244, 245);
+    font-family: verdana;
+  }  
+
+  body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define styles for the header */
+header {
+    background-color: #333; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 10px 0;
+}
+
+.container1 {
+    max-width: 1200px; /* Set a maximum width for the header content */
+    margin: 0 auto; /* Center the content within the container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px; /* Font size for the logo */
+    text-decoration: none;
+    color: #fff; /* Text color for the logo */
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Text color for the menu items */
+    font-weight: bold;
+}
+
+/* Add a hover effect for menu items */
+.menu a:hover {
+    color: #ff9900; /* Change text color on hover */
+}
